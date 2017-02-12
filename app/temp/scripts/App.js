@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -71,21 +71,6 @@
 /***/ (function(module, exports) {
 
 throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\chucho\\Desktop\\projects\\dev-projects\\package.json'\n    at Error (native)\n    at Object.fs.openSync (fs.js:640:18)\n    at Object.fs.readFileSync (fs.js:508:33)\n    at ConfigChainBuilder.addConfig (C:\\Users\\chucho\\Desktop\\projects\\dev-projects\\node_modules\\babel-core\\lib\\transformation\\file\\options\\build-config-chain.js:146:32)\n    at ConfigChainBuilder.findConfigs (C:\\Users\\chucho\\Desktop\\projects\\dev-projects\\node_modules\\babel-core\\lib\\transformation\\file\\options\\build-config-chain.js:102:30)\n    at buildConfigChain (C:\\Users\\chucho\\Desktop\\projects\\dev-projects\\node_modules\\babel-core\\lib\\transformation\\file\\options\\build-config-chain.js:61:13)\n    at OptionManager.init (C:\\Users\\chucho\\Desktop\\projects\\dev-projects\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:353:58)\n    at File.initOptions (C:\\Users\\chucho\\Desktop\\projects\\dev-projects\\node_modules\\babel-core\\lib\\transformation\\file\\index.js:216:65)\n    at new File (C:\\Users\\chucho\\Desktop\\projects\\dev-projects\\node_modules\\babel-core\\lib\\transformation\\file\\index.js:139:24)\n    at Pipeline.transform (C:\\Users\\chucho\\Desktop\\projects\\dev-projects\\node_modules\\babel-core\\lib\\transformation\\pipeline.js:46:16)");
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _MobileMenu = __webpack_require__(0);
-
-var _MobileMenu2 = _interopRequireDefault(_MobileMenu);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var mobileMenu = new _MobileMenu2.default();
 
 /***/ })
 /******/ ]);
